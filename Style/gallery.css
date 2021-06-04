@@ -1,0 +1,20 @@
+.gallery{
+    backface-visibility: hidden;
+    transition: all .4s;
+    background-color: floralwhite;
+    margin-top: 21px;
+    margin-bottom: 25px;
+}
+.img-thumbnail {
+    padding: .25rem;
+   background-color: transparent;
+    border-radius: .25rem;
+    max-width: 100%;
+  border: none !important;
+    height: 273px !important;
+    width: 300px !important;
+}
+.gallery:hover{
+    transform:scale(1.05);
+}
+/*====End of Gallery===*/

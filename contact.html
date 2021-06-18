@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="Style/contact.css">
-    <link rel="stylesheet" href="Style/CommonStyle.css">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link rel="stylesheet" href="commonstyle.css">
    
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -23,7 +23,7 @@
   <body>
     <!-- <div class="se-pre-con"></div>
    -->
-      <!---Top Bar-->
+      <!---Top Bar
       <section id="topbar"class=" d-lg-block  ">
           <div class="container d-flex ">
               <div class="contact-info mr-auto">
@@ -39,7 +39,7 @@
           </div>
       </section>
 
-      <!---End of Top Bar-->
+      -End of Top Bar-->
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg bg-color  sticky-top  animated fadeInUp"id="myNavbar">
           <div class="container-fluid">
@@ -64,7 +64,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <a class="dropdown-item" href="#">Consulation with our trainers</a>
-                          <a class="dropdown-item" href="#">Online events</a>
+                          <a class="dropdown-item" href="onlineevent.html">Online events</a>
                           <a class="dropdown-item" href="#">Yoga Aasan</a>
                           <a class="dropdown-item" href="#">Free Courses</a>
                           <a class="dropdown-item" href="blog.html">Blog</a>
@@ -74,7 +74,7 @@
                         <a href="contact.html"class="nav-link">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="gallery.html"class="nav-link">Gallery</a>
+                        <a href="gallary.html"class="nav-link">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a href="Login.html"class="nav-link">Login</a>
@@ -117,7 +117,7 @@
                             <i class="far fa-envelope"></i>
                             <div class="contact-text">
                                 <h2>Email</h2>
-                                <p>okrajiv@gmail.com</p>
+                                <p>info@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -152,123 +152,85 @@
         </div>
     </div>
     <!-- Contact End -->
-     <!-- footer section -->
-     <footer>
+     <!-- footer starts -->
+
+     <section class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div>
-                        <div class="widget">
-                            <h5> About Yoga Life</h5>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, ut!</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="widget">
-                            <h5>USEFUL LINKS</h5>
-                            <ul>
-                                <li> <a href="">Home</a></li>
-                                <li> <a href="">Career</a></li>
-                                <li> <a href="">Contact us</a></li>
-                                <li> <a href="">Help</a></li>
-                            </ul>
-                        </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer_about">
+                        <span>YogaBuddyz</span>
+                        <ul>
+                            <li>
+                                <i class="fa fa-clock-o"></i> Mon - Fri : 08:30am - 09:00pm
+                            </li>
+                            <li>
+                                <i class="fa fa-clock-o"></i> Sat - Sun : 08:30am - 01:30pm
+                            </li>
+                        </ul>
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Your Email">
+                            <button type="submit"><i class="fa fa-send"></i></button>
+                        </form>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <div>
-                        <div class="widget">
-                            <h5> Yoga Life</h5>
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                            <ul>
-                                <li>
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fas fa-calendar-alt fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                    Monday-Friday, 8am-8pm
-                                </li>
-                                <li>
-                                    <span class="fa-stack fa-lg">
-                                       <i class="fas fa-circle fa-stack-2x"></i>
-                                       <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer_widget">
+                        <h5>Inspiration</h5>
+                        <ul>
+                            <li><a href="#">Yoga</a></li>
+                            <li><a href="#">Spiritual</a></li>
+                            <li><a href="#">Karate</a></li>
+                            <li><a href="#">Aerobics</a></li>
+                            <li><a href="#">Medetation</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer_widget">
+                        <h5>About Us</h5>
+                        <ul>
+                            <li><a href="#">Our Vision</a></li>
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">Meet the team</a></li>
+                            <li><a href="#">Introduce</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer_widget">
+                        <h5>Contact Us</h5>
+                        <ul class="footer-address">
+                            <li><i class="fa fa-phone"></i>999999999</li>
+                            <li><i class="fa fa-envelope"></i>YogaBuddyz@gmail.com</li>
+                            <li><i class="fa fa-location-arrow"></i>Banglore, Karnataka - 560042,India</li>
+                        </ul>
+                    </div>
+                </div>
 
-                                    </span>
-                                    9345678923
-                                </li>
-                                <li>
-                                   <span class="fa-stack fa-lg">
-                                      <i class="fas fa-circle fa-stack-2x"></i>
-                                      <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-
-                                   </span>
-                                 okrajiv@gmail.com
-                               </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div>
-                        <div class="widget">
-                            <h5>Our Location</h5>
-                            <p>  The Estate Building, 8th Floor, Dickenson Road, Banglore - 560042</p>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="widget">
-                            <h5>Follow Us</h5>
-                            <ul class="social-network">
-                                <li class="social-facebook">
-                                    <a href="">
-                                        <i class="fab fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="social-twitter">
-                                   <a href="">
-                                       <i class="fab fa-twitter"></i>
-                                   </a>
-                               </li>
-                               <li class="social-instagram">
-                                   <a href="">
-                                       <i class="fab fa-instagram"></i>
-                                   </a>
-                               </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-        <div class="sub-footer">
-            <div class="container">
+            <div class="footer_copyright">
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div>
-                            <div class="text-left">
-                                <p>&copy; Copyright - YogaBuddyz. All rights reserved</p>
-                            </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer_copyright_text">
+                            <p>Copyright &copy; 2020 YogaBuddyz- All Rights Reserved</p>
                         </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer_copyright_social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
-                        
+                    </div>
                 </div>
             </div>
         </div>
-        
+    </section>
 
-    </footer>
-     
-
-
-
-
-
-
-
-
-
-
-
+    <!-- footer ends -->
 
 
 

@@ -110,17 +110,17 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 82%);
 }
 .slide-1{
- background: url(2.jpg) ;
+ background: url(../image/2.jpg) ;
  background-position: center; 
  background-repeat: no-repeat; 
  background-size: cover; 
 }
 .slide-2{
-    background: url(3.jpg) center /cover fixed no-repeat;
+    background: url(../image/3.jpg) center /cover fixed no-repeat;
    }
 
    .slide-3{
-    background: url(7.jpg) center /cover fixed no-repeat;
+    background: url(../image/7.jpg) center /cover fixed no-repeat;
    }
 .no-padding{
     padding:0;
